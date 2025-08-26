@@ -1,0 +1,3405 @@
+.dtl-devPremierLeaguePage video {
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.dtl-devPremierLeaguePage [hidden] {
+  display: none;
+}
+
+.dtl-devPremierLeaguePage a {
+  background-color: #0000;
+}
+
+.dtl-devPremierLeaguePage a:active,
+.dtl-devPremierLeaguePage a:hover {
+  outline: 0;
+}
+
+.dtl-devPremierLeaguePage b,
+.dtl-devPremierLeaguePage strong {
+  font-weight: bold;
+}
+
+.dtl-devPremierLeaguePage h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+.dtl-devPremierLeaguePage img {
+  border: 0;
+}
+
+.dtl-devPremierLeaguePage svg:not(:root) {
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage button {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.dtl-devPremierLeaguePage button {
+  overflow: visible;
+}
+
+.dtl-devPremierLeaguePage button {
+  text-transform: none;
+}
+
+.dtl-devPremierLeaguePage button {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+.dtl-devPremierLeaguePage button[disabled] {
+  cursor: default;
+}
+
+.dtl-devPremierLeaguePage button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: webflow-icons;
+  src: url("data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG10eCe4A1oAAAT4AAAAMGxvY2EDtALGAAAFKAAAABptYXhwABAAPgAABUQAAAAgbmFtZSoCsMsAAAVkAAABznBvc3QAAwAAAAAHNAAAACAAAwP4AZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpAwPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAQAAAAAwACAACAAQAAQAg5gPpA//9//8AAAAAACDmAOkA//3//wAB/+MaBBcIAAMAAQAAAAAAAAAAAAAAAAABAAH//wAPAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEBIAAAAyADgAAFAAAJAQcJARcDIP5AQAGA/oBAAcABwED+gP6AQAABAOAAAALgA4AABQAAEwEXCQEH4AHAQP6AAYBAAcABwED+gP6AQAAAAwDAAOADQALAAA8AHwAvAAABISIGHQEUFjMhMjY9ATQmByEiBh0BFBYzITI2PQE0JgchIgYdARQWMyEyNj0BNCYDIP3ADRMTDQJADRMTDf3ADRMTDQJADRMTDf3ADRMTDQJADRMTAsATDSANExMNIA0TwBMNIA0TEw0gDRPAEw0gDRMTDSANEwAAAAABAJ0AtAOBApUABQAACQIHCQEDJP7r/upcAXEBcgKU/usBFVz+fAGEAAAAAAL//f+9BAMDwwAEAAkAABcBJwEXAwE3AQdpA5ps/GZsbAOabPxmbEMDmmz8ZmwDmvxmbAOabAAAAgAA/8AEAAPAAB0AOwAABSInLgEnJjU0Nz4BNzYzMTIXHgEXFhUUBw4BBwYjNTI3PgE3NjU0Jy4BJyYjMSIHDgEHBhUUFx4BFxYzAgBqXV6LKCgoKIteXWpqXV6LKCgoKIteXWpVSktvICEhIG9LSlVVSktvICEhIG9LSlVAKCiLXl1qal1eiygoKCiLXl1qal1eiygoZiEgb0tKVVVKS28gISEgb0tKVVVKS28gIQABAAABwAIAA8AAEgAAEzQ3PgE3NjMxFSIHDgEHBhUxIwAoKIteXWpVSktvICFmAcBqXV6LKChmISBvS0pVAAAAAgAA/8AFtgPAADIAOgAAARYXHgEXFhUUBw4BBwYHIxUhIicuAScmNTQ3PgE3NjMxOAExNDc+ATc2MzIXHgEXFhcVATMJATMVMzUEjD83NlAXFxYXTjU1PQL8kz01Nk8XFxcXTzY1PSIjd1BQWlJJSXInJw3+mdv+2/7c25MCUQYcHFg5OUA/ODlXHBwIAhcXTzY1PTw1Nk8XF1tQUHcjIhwcYUNDTgL+3QFt/pOTkwABAAAAAQAAmM7nP18PPPUACwQAAAAAANciZKUAAAAA1yJkpf/9/70FtgPDAAAACAACAAAAAAAAAAEAAAPA/8AAAAW3//3//QW2AAEAAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAAAAAgAAAAQAASAEAADgBAAAwAQAAJ0EAP/9BAAAAAQAAAAFtwAAAAAAAAAKABQAHgAyAEYAjACiAL4BFgE2AY4AAAABAAAADAA8AAMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADQAAAAEAAAAAAAIABwCWAAEAAAAAAAMADQBIAAEAAAAAAAQADQCrAAEAAAAAAAUACwAnAAEAAAAAAAYADQBvAAEAAAAAAAoAGgDSAAMAAQQJAAEAGgANAAMAAQQJAAIADgCdAAMAAQQJAAMAGgBVAAMAAQQJAAQAGgC4AAMAAQQJAAUAFgAyAAMAAQQJAAYAGgB8AAMAAQQJAAoANADsd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzVmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzUmVndWxhcgBSAGUAZwB1AGwAYQByd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzRm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dtl-devPremierLeaguePage * {
+  box-sizing: border-box;
+}
+
+.dtl-devPremierLeaguePage html {
+  height: 100%;
+}
+
+.dtl-devPremierLeaguePage img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.dtl-devPremierLeaguePage .w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.dtl-devPremierLeaguePage .w-button {
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+  background-color: #3898ec;
+  border: 0;
+  border-radius: 0;
+  padding: 9px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dtl-devPremierLeaguePage h1,
+.dtl-devPremierLeaguePage h2,
+.dtl-devPremierLeaguePage h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.dtl-devPremierLeaguePage h1 {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.dtl-devPremierLeaguePage h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.dtl-devPremierLeaguePage h3 {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.dtl-devPremierLeaguePage p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.dtl-devPremierLeaguePage button,
+.dtl-devPremierLeaguePage [type="button"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  border: 0;
+}
+
+.dtl-devPremierLeaguePage .w-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtl-devPremierLeaguePage .w-container:before,
+.dtl-devPremierLeaguePage .w-container:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.dtl-devPremierLeaguePage .w-container:after {
+  clear: both;
+}
+
+@media screen and (max-width: 991px) {
+  .dtl-devPremierLeaguePage .w-container {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .dtl-devPremierLeaguePage .w-container {
+    max-width: none;
+  }
+}
+
+.dtl-devPremierLeaguePage .w-background-video {
+  color: #fff;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .w-background-video > video {
+  object-fit: cover;
+  z-index: -100;
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  inset: -100%;
+}
+
+.dtl-devPremierLeaguePage
+  .w-background-video
+  > video::-webkit-media-controls-start-playback-button {
+  -webkit-appearance: none;
+  display: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage .w-nav-brand {
+    padding-left: 10px;
+  }
+}
+
+.dtl-devPremierLeaguePage .w-nav {
+  z-index: 1000;
+  background: #ddd;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .w-nav:before,
+.dtl-devPremierLeaguePage .w-nav:after {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.dtl-devPremierLeaguePage .w-nav:after {
+  clear: both;
+}
+
+.dtl-devPremierLeaguePage .w-nav-brand {
+  float: left;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .w-nav-menu {
+  float: right;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .w-nav-overlay {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .dtl-devPremierLeaguePage .w-nav[data-collapse="medium"] .w-nav-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage .w-nav-brand {
+    padding-left: 10px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Gotham 0(1)";
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5ee1f96dbb0c2cb4dd8aae6e_GOTHAM-BOLD_0(1).OTF")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec5affddc5fe3297a7_CiscoSansTTExtraLightOblique.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bed8bad99d3b2c69c43_CiscoSansTTLightOblique.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bedab540b7b48af3c13_CiscoSansTTLight.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3beca3d3a30687946b98_CiscoSansTTHeavyOblique.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec79016179d7b42842_CiscoSansTTRegular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3becab540b4e24af3c12_CiscoSansTTBoldOblique.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec7901618604b42844_CiscoSansTTHeavy.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec58238fb05573f166_CiscoSansTTExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3beca3d3a3154b946b97_CiscoSansTTBold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec58238f4a3a73f165_CiscoSansTTThin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec790161029fb42843_CiscoSansTTThinOblique.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Cisco Sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5acc3bec6634d2363a4bfb58_CiscoSansTTRegularOblique.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75caf3b6335b351279_IBMPlexSans-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab756cf0963bcf9fb249_IBMPlexSans-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75edb2e7f81bbad609_IBMPlexSans-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75202d43887113bf53_IBMPlexSans-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab756cf096215a9fb24b_IBMPlexSans-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75edb2e7867ebad60a_IBMPlexSans-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75e3044d120b571d51_IBMPlexSans-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75edb2e7766bbad60b_IBMPlexSans-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab766cf09683fc9fb24d_IBMPlexSans-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75d88d005bb9f1bae4_IBMPlexSans-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75202d431a6713bf54_IBMPlexSans-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75caf3b69be335127a_IBMPlexSans-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75caf3b683ee35127b_IBMPlexSans-Thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexsans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab75edb2e7eba5bad60d_IBMPlexSans-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59202d436caa13bf37_IBMPlexMono-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59caf3b64e7b35125a_IBMPlexMono-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59202d433b7713bf38_IBMPlexMono-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59edb2e75f2cbad5df_IBMPlexMono-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59e3044d28d9571d26_IBMPlexMono-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59e3044d8906571d25_IBMPlexMono-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59caf3b6d5b535125b_IBMPlexMono-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab5acaf3b6652935125d_IBMPlexMono-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab596cf09684159fadb6_IBMPlexMono-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab5acaf3b67df035125e_IBMPlexMono-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59edb2e75aa3bad5e4_IBMPlexMono-Thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59edb2e7624abad5e3_IBMPlexMono-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab59202d437d1813bf3b_IBMPlexMono-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Ibmplexmono;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5c9cab5acaf3b6e59535125f_IBMPlexMono-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Vodafonelt;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5e5362b516879c26efca6a69_VodafoneLt-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Vodafonerg;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5e5362b516879c7f3aca6a6a_VodafoneRg-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Vodafonerg;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5e5362b5eba259f78b41d5b1_VodafoneRg-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb3124ed877a36d006_Montserrat-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfbc13bc81b9aa64f30_Montserrat-ExtraBold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb296808211f8afa39_Montserrat-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfbc892d8d128382fa6_Montserrat-BlackItalic.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfbe9c7ece14758eecc_Montserrat-BoldItalic.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb3b2f955134775c4f_Montserrat-ExtraBoldItalic.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb7a2f0e2247131848_Montserrat-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb368ff66de89b02ef_Montserrat-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfbe73d415133c79f74_Montserrat-Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb882d3ed4ff6c627e_Montserrat-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb92078c04651bae55_Montserrat-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb723f044d2f56f685_Montserrat-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb882d3e3a786c627f_Montserrat-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfba7cbc906a7b48eb7_Montserrat-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfbdb81f13dca961f9a_Montserrat-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfc8b3189853de6e732_Montserrat-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfc368ff63b6a9b02f0_Montserrat-Thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f1e9dfb5a04f370b012f1d1_Montserrat-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd lt;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5226c51271135e69d_AmazonEmberCd_Lt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember th;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f65d1029347bf3ca13_AmazonEmber_Th.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember heit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5ba10b416b3cfa675_AmazonEmber_HeIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember he;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5fbaf55056247959f_AmazonEmber_He.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd bd;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f58852afa8eec35376_AmazonEmberCd_Bd.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd ltit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5f8e302ef3340a6ae_AmazonEmberCd_LtIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember thit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f67e44552c21e9cc9c_AmazonEmber_ThIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd thit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5d9f60a1374bbf939_AmazonEmberCd_ThIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd bdit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5c4fb41070381fe5d_AmazonEmberCd_BdIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd th;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6767991719c7f9410_AmazonEmberCd_Th.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd rgit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f50935c5c05971d480_AmazonEmberCd_RgIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonembercd rg;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f5fbaf558a4b4795a0_AmazonEmberCd_Rg.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonemberdisplay bd;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f57e44551207e9cc99_AmazonEmberDisplay_Bd.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonemberdisplay he;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6b1e96558a9031398_AmazonEmberDisplay_He.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonemberdisplay lt;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f64062874f698e1a36_AmazonEmberDisplay_Lt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember bd;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6786144175c14e6e0_AmazonEmber_Bd.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonemberdisplay rg;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f678614480cb14e6df_AmazonEmberDisplay_Rg.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonemberdisplay md;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6b1e9657f03031399_AmazonEmberDisplay_Md.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember bdit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6646454fb0c7965f3_AmazonEmber_BdIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember md;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6caf1bec62590a831_AmazonEmber_Md.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember mdit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f67e445559b8e9cc9a_AmazonEmber_MdIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember lt;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f6ba10b4319bcfa676_AmazonEmber_Lt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember ltit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f676799178127f9411_AmazonEmber_LtIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember rg;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f695543a69527a5ccc_AmazonEmber_Rg.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Amazonember rgit;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f3f50f695543a3bbd7a5ccd_AmazonEmber_RgIt.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Google sans;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5f7163d2a85b927819d1f368_Google%20Sans%20Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea70da01b6db_Texta-Black.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25906504142807ec67_Texta-BlackIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a2504f92077ee59068e_Texta-HeavyIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26c882143c6455244d_Texta-Heavy.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea70da01b6db_Texta-Black.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25906504142807ec67_Texta-BlackIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26c882143c6455244d_Texta-Heavy.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a2504f92077ee59068e_Texta-HeavyIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25906504142807ec67_Texta-BlackIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea70da01b6db_Texta-Black.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26c882143c6455244d_Texta-Heavy.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26c882143c6455244d_Texta-Heavy.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta book;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252a4d908d123d099f_Texta-Book.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252a4d908d123d099f_Texta-Book.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta bookit;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25b0b0b4272e9195a9_Texta-BookIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25b0b0b4272e9195a9_Texta-BookIt.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25f30dcaa1d044a8f1_Texta-Light.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26888ff713e75286d1_Texta-LightIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26888ff713e75286d1_Texta-LightIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25f30dcaa1d044a8f1_Texta-Light.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25d1c816c43651e0fb_Texta-BoldIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea902d01b6dc_Texta-Bold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea902d01b6dc_Texta-Bold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25d1c816c43651e0fb_Texta-BoldIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea902d01b6dc_Texta-Bold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a252af6ea902d01b6dc_Texta-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a268fde0b73c68a14f1_Texta-MediumIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a266febb02ee0a73a9d_Texta-Medium.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a266febb02ee0a73a9d_Texta-Medium.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a268fde0b73c68a14f1_Texta-MediumIt.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26a0405ddd8fc6b971_Texta-Regular.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26a0405ddd8fc6b971_Texta-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26e70cd37fe1682430_Texta-ThintIt.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26081ed9511db178ec_Texta-Thin.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26081ed9511db178ec_Texta-Thin.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26e70cd37fe1682430_Texta-ThintIt.ttf")
+      format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta it;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a25081ed9bb1ab178ea_Texta-It.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Source sans pro;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5ffd4be3e9a2e546ec71c57e_source-sans-pro.black-italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeui;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e14ac37730d501eefe6_SegoeUI-Bold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e14ac37730d501eefe6_SegoeUI-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeui;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e154700117bef299dd9_SegoeUI-Semibold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e154700117bef299dd9_SegoeUI-Semibold.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Seguisb;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e14ac37736c051eefe7_seguisb.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeui;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e14317cefdf955f3ec0_SegoeUI-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeuil;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e165ba91c4a5819acbf_segoeuil.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeui;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e15f04b45e722a01d09_SegoeUI.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Segoeuib;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/60811e156168d47cbae7030c_segoeuib.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hkgrotesk;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f507338be5ca8e5bc2cf_HKGrotesk-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hkgrotesk;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f50787276aa651516f6d_HKGrotesk-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hkgrotesk;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f50716a12788f801e85c_HKGrotesk-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hkgrotesk;
+  src:
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f5077a2b32b6e517b169_HKGrotesk-Bold.ttf")
+      format("truetype"),
+    url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f507eb3b7d7c11fc922a_HKGrotesk-BoldLegacy.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Hkgrotesk;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/6226f507ebc1974bedd7b396_HKGrotesk-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Varelaround;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/65a0ebfd311f6336d72df14f_VarelaRound-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Texta;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5fbe4a26c882143c6455244d_Texta-Heavy.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gotham 0";
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5ee1f97abb5ebd85abc8763c_Gotham-Medium_0.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham book;
+  src: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5ee1f98620e68c76b22fc94f_Gotham-Book.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+.dtl-devPremierLeaguePage .w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.dtl-devPremierLeaguePage .w-layout-hflex {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .dtl-devPremierLeaguePage .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.dtl-devPremierLeaguePage .a {
+  text-decoration: underline;
+}
+
+.dtl-devPremierLeaguePage .image {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.dtl-devPremierLeaguePage.section {
+  color: #fff;
+  background-image: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/5ab4aefde4ec3988a75f0ad4_Powering-small-businesses.png");
+  background-position: 0 0;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  margin-top: 90px;
+  font-family:
+    Droid Serif,
+    serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .video {
+  margin-right: 10px;
+}
+
+.dtl-devPremierLeaguePage.button {
+  color: #00b6e8;
+  background-image: linear-gradient(#fff, #fff);
+  border-radius: 20px;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family:
+    Cisco Sans,
+    sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.dtl-devPremierLeaguePage .youtube {
+  border-radius: 10px;
+}
+
+.dtl-devPremierLeaguePage .name {
+  font-size: 12px;
+}
+
+.dtl-devPremierLeaguePage .articles {
+  padding: 60px 100px;
+  display: block;
+}
+
+.dtl-devPremierLeaguePage .background {
+  z-index: 1;
+  background-color: #0009;
+  display: none;
+  position: fixed;
+  inset: 0%;
+}
+
+.dtl-devPremierLeaguePage .rt-nav-one {
+  z-index: 999;
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  border-bottom: 1px solid #d5d5d5;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 30px #11254226;
+}
+
+.dtl-devPremierLeaguePage .rt-component-container {
+  width: 100%;
+  max-width: 1290px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section {
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .background-video-8 {
+  height: 800px;
+  margin-top: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-library-footer {
+  background-color: var(--untitled-ui--gray100);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  display: none;
+}
+
+.dtl-devPremierLeaguePage .container-378 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .text-block-2468 {
+  margin-right: 20px;
+}
+
+.dtl-devPremierLeaguePage .rt-body-font-color {
+  color:#6d6d6d;
+  font-size: 18px;
+  transition: color 0.35s;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-bottom-zero {
+  margin-bottom: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-tag-wrap {
+  position: absolute;
+  inset: 0% auto 0% 15px;
+  transform: rotate(-90deg);
+}
+
+.dtl-devPremierLeaguePage .rt-tag-wrap.rttag-type-one {
+  left: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-top-zero {
+  margin-top: 0;
+}
+
+.dtl-devPremierLeaguePage
+  .rt-margin-top-zero.rt-margin-bottom-zero.rt-why-choose-us-future-heading {
+  max-width: 19ch;
+  font-size: 42px;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-top-twenty {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 20px;
+}
+
+.dtl-devPremierLeaguePage .rt-devider-one {
+  background-color: #02015a1f;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+.dtl-devPremierLeaguePage .rt-devider-one.rt-bottom-margin-none {
+  margin-bottom: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-bottom-thirty-two {
+  margin-bottom: 32px;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-bottom-thirty-two.rt-margin-top-twenty {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-us-vission-background {
+  background-color: #29b5e8;
+  width: 71px;
+  height: 362px;
+  position: absolute;
+  inset: 0% 0% auto auto;
+}
+
+.dtl-devPremierLeaguePage .rt-interior-design-text-with-icon {
+  color: #6d6d6d;
+  letter-spacing: -0.01rem;
+  text-transform: capitalize;
+  background-image: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/688340d76ed42fe95fde416e_277cb24227933d26c1ea95e1025c164d_Why-Choose-Grey-Arrow.svg");
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: 23px 23px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: none;
+  transition: transform 0.45s;
+}
+
+.dtl-devPremierLeaguePage .rt-interior-design-text-with-icon:hover {
+  background-image: url("https://cdn.prod.website-files.com/5ab4a7f2a6f17cdc68374b6a/688340d76ed42fe95fde416f_f7d51fe6a41832b715d10d75659d0d2b_arrow%20(7).svg");
+}
+
+.dtl-devPremierLeaguePage .rt-interior-design-text-with-icon.rt-margin-bottom-zero {
+  margin-bottom: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-autofit-9 {
+  object-fit: cover;
+}
+
+.dtl-devPremierLeaguePage .rt-autofit-9.rt-responsive-full-width {
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-autofit-9.rt-responsive-full-width.rt-why-choose-us-vission-image {
+  z-index: 2;
+  aspect-ratio: auto;
+  vertical-align: baseline;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-flex {
+  grid-column-gap: 40px;
+  justify-content: center;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-left {
+  flex: 0 45%;
+  padding-right: 20px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-list-right {
+  flex-flow: column;
+  flex: 1;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-tag-7 {
+  color: #000;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  background-color: #f0f0f0;
+  border-radius: 7px;
+  padding: 9px 20px 7px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.dtl-devPremierLeaguePage .rt-tag-7.rt-dark-tab {
+  color: #fff;
+  background-color: #000;
+}
+
+.dtl-devPremierLeaguePage .rt-tag-7.rt-dark-tab.rt-blue-tab {
+  background-color: #29b5e8;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-us-vission-heading-wrap {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding-left: 60px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-list-flex {
+  grid-column-gap: 40px;
+  padding-top: 0;
+  padding-bottom: 40px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-list-left {
+  flex-flow: column;
+  flex: 1;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-why-choose-vision-right {
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  flex: 0 54%;
+  align-self: center;
+}
+
+.dtl-devPremierLeaguePage .link-block-373 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-block-374,
+.dtl-devPremierLeaguePage .link-block-375,
+.dtl-devPremierLeaguePage .link-block-376,
+.dtl-devPremierLeaguePage .link-block-377,
+.dtl-devPremierLeaguePage .link-block-378 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .heading-847 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.dtl-devPremierLeaguePage .heading-849 {
+  text-transform: uppercase;
+  color: #6d6d6d;
+  font-size: 21px;
+}
+
+.dtl-devPremierLeaguePage .rt-category-cards-text {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: capitalize;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-2 {
+  background-color: var(--flowui-component-library--gray-100);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-sticky {
+  margin-bottom: 30px;
+  position: static;
+  top: 100px;
+}
+
+
+.dtl-devPremierLeaguePage .rt-sticky.rt-tab-sticky-off.rttext-black {
+  text-align: left;
+  font-size: 42px;
+  position: sticky;
+}
+
+.dtl-devPremierLeaguePage .rt-team-two-work-process-block {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-service-step-info {
+  flex: 1;
+  padding: 1.7rem 8% 1.7rem 5%;
+}
+
+.dtl-devPremierLeaguePage .rt-team-two-process-block-left {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 499px;
+  display: flex;
+  position: static;
+  top: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-service-step-number-2 {
+  color: #29b5e8;
+  -webkit-text-stroke-color: #29b5e8;
+  font-size: 5rem;
+}
+
+.dtl-devPremierLeaguePage .rt-service-process-step-2 {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: -1px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-service-process-step-2.rt-team-two {
+  border-bottom-color: #e1e1e1;
+}
+
+.dtl-devPremierLeaguePage .rt-service-process-step-2.rt-team-two-no-border {
+  border-bottom-style: none;
+}
+
+.dtl-devPremierLeaguePage .rt-service-step-number-block-2 {
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  min-width: 120px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .rt-service-process-2 {
+  perspective: 600px;
+  padding-bottom: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-service-step-process-3 {
+  z-index: 2;
+  background-image: linear-gradient(
+    180deg,
+    #29b5e8,
+    var(--radiant-ui-components-library-marketplace--color--theme-color)
+  );
+  direction: ltr;
+  width: 3px;
+  height: 40%;
+  position: absolute;
+  right: -1px;
+}
+
+.dtl-devPremierLeaguePage .rt-text-dark-black {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-3 {
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 60px 15px 20px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .bold-text-456 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  line-height: 38px;
+}
+
+.dtl-devPremierLeaguePage .heading-850 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 42px;
+}
+
+.dtl-devPremierLeaguePage .paragraph-413 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-5 {
+  background-color: var(--untitled-ui--gray100);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-heading-two {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.dtl-devPremierLeaguePage .rt-autofit-10 {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dtl-devPremierLeaguePage .rt-text-uppercase {
+  text-transform: uppercase;
+}
+
+.dtl-devPremierLeaguePage .rt-dropdown-toggle-copy {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+  padding: 10px 0;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-dropdown-2 {
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-accordion-main {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex-flow: column;
+  max-width: 550px;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-home-three-benefits-main {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  align-items: center;
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-accordion-v3-tag {
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-dropdown-list-3 {
+  background-color: #ddd0;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-overflow-off {
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .rt-home-three-benefits-image {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex: 1;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-home-three-benefits-text {
+  flex: 1;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-top-thirty-five {
+  margin-top: 35px;
+}
+
+.dtl-devPremierLeaguePage .rt-component-container-2 {
+  width: 100%;
+  max-width: 1290px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-8 {
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Outfit;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-8.rt-footer-v-two-gap {
+  background-color: var(--untitled-ui--gray100);
+  padding-bottom: 20px;
+  font-family: Lato, sans-serif;
+}
+
+.dtl-devPremierLeaguePage .rt-title-top {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  letter-spacing: 0.01px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.dtl-devPremierLeaguePage .rt-designed-text {
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.dtl-devPremierLeaguePage .rt-padding-bottom-thirty {
+  padding-bottom: 30px;
+}
+
+.dtl-devPremierLeaguePage .rt-footer-one-main-paragraph {
+  margin-top: 10px;
+}
+
+.dtl-devPremierLeaguePage .rt-footer-two-line-two {
+  background-color: #ababab80;
+   border-top: 1px solid #ccc;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-footer-one-copyright-main {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  text-align: center;
+  flex-flow: wrap;
+  justify-content: space-between;
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.dtl-devPremierLeaguePage .rt-footer-one-copyright {
+text-align: center;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.dtl-devPremierLeaguePage .rt-footer-one-main-block {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  justify-content: space-between;
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .bold-text-458 {
+  font-size: 21px;
+  color: #00b6e8;
+}
+
+.dtl-devPremierLeaguePage .link-81 {
+  color: var(--radiant-ui-components-library-marketplace--color--theme-color);
+}
+
+.dtl-devPremierLeaguePage .rt-overflow-none-2,
+.dtl-devPremierLeaguePage .rt-overflow-hidden-2 {
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .rt-overflow-hidden-2.rt-radious-ten-2 {
+  border-radius: 10px;
+}
+
+.dtl-devPremierLeaguePage .rt-color-white-2 {
+  color: #fff;
+}
+
+.dtl-devPremierLeaguePage .rt-marquee-train-two-2 {
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  flex: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.dtl-devPremierLeaguePage .rt-marquee-text-3 {
+  color: #dedede;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+.dtl-devPremierLeaguePage .rt-about-one-video-text-2 {
+  z-index: 3;
+  background-color: #15111c1a;
+  border-right: 1px solid #ffffff4d;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  inset: 0% auto 0% 0%;
+}
+
+.dtl-devPremierLeaguePage .rt-play-pause-button-2 {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: #0000001a;
+  border: 1px solid #fff9;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 102px;
+  display: flex;
+  position: static;
+}
+
+.dtl-devPremierLeaguePage .rt-heading-six-26 {
+  letter-spacing: -0.36px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.dtl-devPremierLeaguePage .rt-heading-six-26.rt-text-color-white-2 {
+  color: var(--radiant-ui-components-library-marketplace--color--white);
+}
+
+.dtl-devPremierLeaguePage .rt-heading-six-26.rt-text-color-white-2.rt-about-one-video-text-rotate {
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  transform: rotate(-90deg);
+}
+
+.dtl-devPremierLeaguePage .rt-background-video-2 {
+  aspect-ratio: 2.39;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-about-one-video-linear-gradient-2 {
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(0deg, #15111c 14%, #15111c33 60%);
+  position: absolute;
+  inset: 0%;
+}
+
+.dtl-devPremierLeaguePage .rt-about-one-video-marque-2 {
+  z-index: 4;
+  width: 100%;
+  position: absolute;
+  inset: auto 0% -24px;
+}
+
+.dtl-devPremierLeaguePage .rt-marquee-two-2 {
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-position-relative-2 {
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-text-color-white-2 {
+  color: #fff;
+}
+
+.dtl-devPremierLeaguePage .rt-radious-ten-2 {
+  border-radius: 10px;
+}
+
+.dtl-devPremierLeaguePage .rt-radious-ten-2.rt-overflow-hidden-2,
+.dtl-devPremierLeaguePage .rt-background-dark-2 {
+  background-color: var(--radiant-ui-components-library-marketplace--color--button-background-dark);
+}
+
+.dtl-devPremierLeaguePage .rt-video-wrap-2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-lightbox-video-2 {
+  position: absolute;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-9 {
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Outfit;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  display: none;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-9.rt-footer-v-two-gap {
+ padding-top: 20px;  
+  padding-bottom: 20px;
+}
+
+.dtl-devPremierLeaguePage .rt-nav-menu-main {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-nav-menu-2 {
+  color: #000;
+  flex: 1;
+  justify-content: space-around;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-nav-right-block {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-header-one-nav {
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  position: relative;
+  inset: 0% 0% auto;
+  box-shadow: 0 2px 5px #0003;
+}
+
+.dtl-devPremierLeaguePage .rt-main-button-2 {
+  background-color: #00b6e8;
+  color: #fff;
+  text-align: center;
+  letter-spacing: -0.01px;
+  border: 1.5px solid #3347ff;
+  border-radius: 130px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  transition: all 0.4s;
+}
+
+.dtl-devPremierLeaguePage .rt-main-button-2:hover {
+  border-color: var(--radiant-ui-components-library-marketplace--color--theme-color);
+  color: var(--radiant-ui-components-library-marketplace--color--theme-color);
+  background-color: #0000;
+}
+
+.dtl-devPremierLeaguePage .rt-home-one-nav-button-wrap {
+  grid-column-gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-nav-container {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: 274px 1fr 274px;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2 {
+  display: none;
+}
+
+.dtl-devPremierLeaguePage .rt-auto-fit-15 {
+  object-fit: contain;
+  object-position: 50% 0%;
+  height: auto;
+  overflow: hidden;
+}
+.dtl-devPremierLeaguePage .mobile-menu {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 2rem;
+}
+
+.dtl-devPremierLeaguePage .mobile-menu.open {
+  transform: translateX(0);
+}
+
+.dtl-devPremierLeaguePage .mobile-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dtl-devPremierLeaguePage .menu-link {
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2 {
+  display: none;
+  width: 24px;
+  height: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2.open {
+  transform: rotate(90deg);
+}
+
+.rt-hamburger-line-one-2,
+.rt-hamburger-line-two,
+.dtl-devPremierLeaguePage .rt-hamburger-line-three-2 {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition:
+    transform 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2.open .rt-hamburger-line-one-2 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2.open .rt-hamburger-line-two {
+  opacity: 0;
+}
+
+.dtl-devPremierLeaguePage .rt-hamburger-2.open .rt-hamburger-line-three-2 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .dtl-devPremierLeaguePage .rt-nav-menu-2 {
+    display: none;
+  }
+
+  .rt-home-one-nav-button-wrap {
+    display: none !important;
+  }
+
+  .rt-hamburger-2 {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .dtl-devPremierLeaguePage .mobile-menu {
+    display: none;
+  }
+
+  .rt-hamburger-2 {
+    display: none;
+  }
+}
+.dtl-devPremierLeaguePage .rt-startex {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+}
+.dtl-devPremierLeaguePage .mobile-register-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .dtl-devPremierLeaguePage .mobile-register-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  .mobile-register-button .rt-main-button-2 {
+    width: auto;
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+
+  .rt-home-one-nav-button-wrap {
+    display: none !important;
+  }
+}
+
+.dtl-devPremierLeaguePage .link-83 {
+  color: var(--black);
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .rt-component-container-3 {
+  width: 100%;
+  max-width: 1290px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-top-fifteen-2 {
+  color: black;
+  margin-top: 0;
+  font-size: 42px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage .rt-advertise-content {
+    flex-wrap: wrap;
+  }
+}
+.dtl-devPremierLeaguePage .rt-overflow-none-3 {
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .bold-text-459 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+}
+
+.dtl-devPremierLeaguePage .text-block-2469 {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .rt-category-cards-text-2 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.dtl-devPremierLeaguePage .rt-category-cards-text-2.rt-margin-bottom-twenty {
+  font-size: 21px;
+  color: #000;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-bottom-twenty {
+  margin-bottom: 20px;
+}
+
+.dtl-devPremierLeaguePage .rt-margin-bottom-twenty.rt-body-font-color-2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .rt-component-section-11 {
+  background-color: var(--radiant-ui-components-library-marketplace--color--white);
+  color: #6d6d6d;
+  width: 100%;
+  padding: 80px 15px;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 29px;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-full-width-2 {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-overflow-hidden-3 {
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .rt-advertise-content-icon-wrapper {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: column;
+  flex: none;
+  align-items: center;
+  width: 42px;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-advertise-icon-wrapper {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  border: 1px solid #0000004d;
+  border-radius: 100%;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .rt-dotted-line {
+  border: 1px dashed #0003;
+  flex: 1;
+  width: 1px;
+  height: 100%;
+}
+
+
+.dtl-devPremierLeaguePage .rt-advertise-content-text-wrapper {
+  max-width: 600px;
+}
+
+.dtl-devPremierLeaguePage .rt-border-radius-six {
+  border-radius: 6px;
+}
+
+.dtl-devPremierLeaguePage .rt-advertise-content-wrapper {
+  grid-column-gap: 100px;
+  grid-row-gap: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-advertise-content {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  align-items: stretch;
+}
+
+.dtl-devPremierLeaguePage .rt-advertise-content.rt-margin-bottom-twenty {
+  margin-top: 20px;
+}
+
+.dtl-devPremierLeaguePage .rt-body-font-color-2 {
+  color: var(--radiant-ui-components-library-marketplace--color--body-font-dark);
+  font-size: 18px;
+  font-weight: 400;
+  transition: color 0.35s;
+}
+
+.dtl-devPremierLeaguePage .rt-position-relative-3 {
+  position: relative;
+}
+
+.dtl-devPremierLeaguePage .text-block-2470 {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .text-block-2471 {
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .text-block-2472 {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .rt-category-cards-text-3 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.dtl-devPremierLeaguePage .rt-radius-ten {
+  border-radius: 10px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.dtl-devPremierLeaguePage .rt-accordion {
+  width: 100%;
+}
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-main {
+  max-width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dtl-devPremierLeaguePage .rt-dropdown-list-2 {
+  background-color: var(--radiant-ui-components-library-marketplace--linear-color-three);
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-icon {
+  flex-shrink: 0 !important;
+  font-size: 30px;
+}
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-title {
+  max-width: none;
+}
+
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-block {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  background-color: var(--radiant-ui-components-library-marketplace--linear-color-three);
+  border-bottom: 1px solid #eff2ff33;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+}
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-block.rt-border-none {
+  border-bottom-style: none;
+}
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-line-one,
+.dtl-devPremierLeaguePage .rt-pricing-faq-line-two {
+  background-color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  width: 17px;
+  height: 1px;
+}
+
+.dtl-devPremierLeaguePage .rt-dropdown-toggle-2 {
+   display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.dtl-devPremierLeaguePage .rt-pricing-faq-text {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  border-left: 1px dotted #000;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dtl-devPremierLeaguePage .text-span-30 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-84 {
+  text-transform: uppercase;
+  font-size: 1px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-31 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-85 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-32 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-86 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-33 {
+  color: var(--midnight-blue-2);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-87 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-34 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dtl-devPremierLeaguePage .link-88 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-35 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  font-size: 16px;
+}
+
+.dtl-devPremierLeaguePage .text-span-36 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.dtl-devPremierLeaguePage .link-89 {
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .text-span-37 {
+  color: var(--radiant-ui-components-library-marketplace--color--heading-dark);
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.dtl-devPremierLeaguePage .link-90 {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .dtl-devPremierLeaguePage .rt-team-two-work-process-block {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  .rt-footer-one-main-block {
+    grid-column-gap: 150px;
+    grid-row-gap: 150px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .dtl-devPremierLeaguePage .rt-nav-container {
+    grid-template-columns: 270px 4fr 270px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .dtl-devPremierLeaguePage .rt-interior-design-text-with-icon {
+    padding-left: 45px;
+  }
+
+  .rt-why-choose-vision-flex {
+    grid-column-gap: 140px;
+  }
+
+  .rt-overflow-off {
+    align-self: center;
+  }
+
+  .rt-overflow-off.rt-change-margin {
+    margin-left: -50px;
+  }
+
+  .rt-nav-right-block {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .rt-header-one-nav {
+    z-index: 7;
+  }
+
+  .rt-nav-container {
+    grid-template-columns: 1fr 4fr 1.25fr;
+  }
+
+  .rt-auto-fit-15 {
+    object-fit: cover;
+  }
+
+  
+}
+
+@media screen and (max-width: 991px) {
+  .dtl-devPremierLeaguePage .rt-nav-one {
+    display: none;
+  }
+
+  .rt-tag-wrap {
+    position: static;
+    transform: none;
+  }
+
+  .rt-interior-design-text-with-icon {
+    margin-bottom: 10px;
+  }
+
+  .rt-autofit-9.rt-responsive-full-width {
+    width: 100%;
+  }
+
+  .rt-why-choose-vision-flex {
+    display: block;
+  }
+
+  .rt-why-choose-vision-left {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .rt-why-choose-vision-list-right {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .rt-why-choose-us-vission-heading-wrap {
+    flex-flow: column;
+    padding-left: 0;
+  }
+
+  .rt-why-choose-vision-list-flex {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .rt-why-choose-vision-list-left {
+    grid-row-gap: 0px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .dtl-devPremierLeaguePage .rt-sticky {
+    position: static !important;
+    top: auto !important; 
+  }
+
+  .rt-sticky.rt-tab-sticky-off,
+  .dtl-devPremierLeaguePage .rt-sticky.rt-tab-sticky-off.rttext-black {
+    position: static !important;
+    top: auto !important; 
+  }
+
+  .rt-team-two-work-process-block {
+    height: auto;
+    display: block;
+  }
+
+  .rt-service-step-info {
+    padding: 2rem 6%;
+  }
+
+  .rt-team-two-process-block-left {
+    max-width: 100%;
+    height: auto;
+    position: static; 
+  }
+
+  .rt-autofit-10.rt-responsive-full-width-two {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rt-accordion-main {
+    max-width: 100%;
+  }
+
+  .rt-home-three-benefits-main {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    flex-flow: column;
+    align-items: stretch;
+  }
+
+  .rt-home-three-benefits-image {
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+
+  .rt-home-three-benefits-text {
+    min-width: 100%;
+  }
+
+  .rt-designed-text {
+    text-align: center;
+  }
+
+  .rt-footer-one-text-wrapper {
+    flex: 0 50%;
+    order: -1;
+    padding-right: 50px;
+  }
+
+  .rt-footer-one-main {
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  }
+
+  .rt-footer-one-copyright-main {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    flex-flow: wrap;
+    justify-content: space-between;
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .rt-footer-one-copyright {
+    padding-top: 20px;
+  }
+
+  .rt-footer-one-main-block {
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .rt-marquee-text-3 {
+    font-size: 100px;
+    line-height: 110px;
+  }
+
+  .rt-about-one-video-text-2 {
+    display: none;
+  }
+
+  .rt-play-pause-button-2 {
+    width: 80px;
+    height: 80px;
+  }
+
+  .rt-heading-six-26 {
+    letter-spacing: -0.32px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .rt-background-video-2 {
+    height: 400px;
+  }
+
+  .rt-about-one-video-marque-2 {
+    bottom: -24px;
+  }
+
+  .rt-nav-menu-main {
+    flex-direction: column;
+  }
+
+  .rt-nav-menu-2 {
+    background-color: #fff;
+    flex: 0 auto;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 80px 0% 0%;
+  }
+
+  .rt-hamburger-line-two {
+    background-color: #282828;
+    width: 30px;
+    height: 2px;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .rt-home-one-nav-button-wrap.rt-display-responsive-none {
+    display: none;
+  }
+
+  .rt-nav-container {
+    grid-template-columns: 2fr 3fr 30px;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .rt-hamburger-line-one-2 {
+    background-color: #282828;
+    width: 30px;
+    height: 2px;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .rt-hamburger-line-three-2 {
+    background-color: #282828;
+    width: 30px;
+    height: 2px;
+    padding-bottom: 0;
+    padding-right: 0;
+  }
+
+  .rt-hamburger-2 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .rt-startex {
+    padding-left: 0;
+  }
+
+  .rt-advertise-content-text-wrapper {
+    max-width: none;
+  }
+
+  
+  
+
+  .rt-pricing-faq-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .rt-dropdown-toggle-2 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: space-between;
+  }
+
+  .dtl-devPremierLeaguePage .rt-advertise-image-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+   .rt-advertise-image-wrapper img {
+    width: 100% !important;
+    height: auto !important; /* keep aspect ratio */
+    max-width: 350px; /* optional: limit so it's not huge */
+    display: block;
+    margin: 0 auto;
+  }
+
+  .rt-advertise-content-text-wrapper {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage .section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .rt-library-footer {
+    font-size: 15px;
+  }
+
+  .rt-autofit-9 {
+    height: auto;
+  }
+
+  .rt-why-choose-vision-list-flex {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  
+
+  .rt-responsive-full-width {
+    width: 100%;
+  }
+
+  .rt-service-step-number-2 {
+    font-size: 4rem;
+  }
+
+  .rt-home-three-benefits-image {
+    grid-template-rows: auto auto;
+  }
+
+  .rt-home-three-benefits-text {
+    min-width: auto;
+  }
+
+  .rt-footer-one-text-wrapper {
+    flex-basis: 100%;
+    padding-right: 150px;
+  }
+
+  .rt-footer-one-main-paragraph.rt-padding-bottom-thirty {
+    max-width: 100%;
+  }
+
+  .rt-footer-one-main-paragraph a {
+  color: #0073e6; 
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.rt-footer-one-main-paragraph a:hover {
+  text-decoration: underline;
+}
+
+  .rt-marquee-train-two-2 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .rt-marquee-text-3 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .rt-play-button-icon-2 {
+    width: 15px;
+    height: 17px;
+  }
+
+  .rt-heading-six-26 {
+    letter-spacing: -0.3px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .rt-about-one-video-marque-2 {
+    bottom: -15px;
+  }
+
+  .rt-header-one-nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .dtl-devPremierLeaguePage .section {
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    top: -29px;
+  }
+
+  .rt-component-section {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .rt-why-choose-us-vission-background {
+    display: none;
+  }
+
+  .rt-why-choose-vision-list-flex {
+    display: block;
+  }
+
+  .rt-why-choose-vision-list-left {
+    margin-bottom: 10px;
+  }
+
+  .rt-category-cards-text {
+    font-size: 18px;
+  }
+  .rt-category-cards-text-3 {
+  flex: 1 !important;              
+  margin-right: 12px !important;   
+  display: inline-block !important;
+  white-space: normal !important; 
+}
+
+  .rt-component-section-2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .rt-sticky.rt-tab-sticky-off.rttext-black {
+    text-align: left;
+  }
+
+  .rt-service-step-info {
+    padding-bottom: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .rt-service-process-step-2 {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 24px !important;
+    border-bottom: none !important;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+  }
+
+  .rt-service-step-number-2 {
+    color: #29b5e8 !important;   
+    margin-bottom: 6px;
+    display: block;
+    text-align: left;
+    font-size: 2.5rem; 
+    line-height: 1; 
+  }
+
+  .rt-service-step-process-3 {
+    display: none !important;
+  }
+
+  .rt-service-step-info {
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .rt-category-cards-text {
+    margin-bottom: 6px;
+  }
+
+  .rt-body-font-color {
+    color: #333;
+  }
+}
+
+.dtl-devPremierLeaguePage #w-node-_8900a249-07d1-da4f-b42c-86fec0572aac-091adc17 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+@media screen and (max-width: 991px) {
+  .dtl-devPremierLeaguePage #w-node-_8900a249-07d1-da4f-b42c-86fec0572aab-091adc17 {
+    grid-column-end: 2;
+    justify-self: stretch;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dtl-devPremierLeaguePage #w-node-_8900a249-07d1-da4f-b42c-86fec0572aac-091adc17 {
+    grid-column-end: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  .dtl-devPremierLeaguePage .rt-nav-menu-2 {
+    display: none;
+    background-color: #fff;
+    flex: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 80px 0% 0%;
+  }
+}
+
+@media (max-width: 479px) {
+  .dtl-devPremierLeaguePage .rt-home-three-benefits-image {
+    grid-template-rows: auto auto;
+    width: 100%; 
+  }
+}
+@media (max-width: 768px) {
+  .dtl-devPremierLeaguePage .rt-advertise-content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 479px) {
+  .dtl-devPremierLeaguePage .rt-dotted-line {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .rt-why-choose-vision-flex {
+    flex-direction: column !important;   
+    align-items: center !important;
+  }
+
+  .rt-why-choose-vision-left,
+  .rt-why-choose-vision-right {
+    width: 100% !important;          
+    max-width: 100% !important;
+  }
+
+  .rt-why-choose-us-vission-image {
+    width: 100% !important;            
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;                   
+  }
+}
+
+@media (max-width: 768px) {
+  .rt-team-two-work-process-block {
+    display: block !important;
+  }
+
+  .rt-team-two-process-block-left {
+    width: 100% !important;
+    margin-bottom: 20px; 
+  }
+
+  .rt-service-process-2 {
+    width: 100% !important;
+  }
+
+  
+
+  .rt-service-process-step-2 {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 24px !important;
+    border-bottom: none !important;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem;
+  }
+
+
+  .rt-service-step-number-2 {
+    color: #29b5e8 !important;   
+    margin-bottom: 6px;
+    display: block;
+    text-align: left;
+    font-size: 2.5rem; 
+    line-height: 1; 
+  }
+
+  .rt-service-step-process-3 {
+    display: none !important;
+  }
+
+  .rt-service-step-info {
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .rt-category-cards-text {
+    margin-bottom: 6px;
+  }
+
+  .rt-body-font-color {
+    color: #333;
+  }
+}
+#Terms-Condition {
+  padding-top: 10px !important;
+  padding-bottom: 64px !important;
+}
+
+.rt-footer-one-text-wrapper,
+.rt-footer-one-main-paragraph,
+.rt-footer-one-copyright {
+  margin: 5px 0 !important;
+  padding: 0 !important;
+}
+
+.rt-padding-bottom-thirty {
+  margin-bottom: 5px !important;
+  padding-bottom: 0 !important;
+}
+
+.rt-footer-two-line-two {
+  margin: 5px 0 !important;
+}
+
+.rt-radius-ten {
+  background-color: #e0ecff;
+  padding: 20px 30px;  
+  border-radius: 12px;
+}
+
+.rt-pricing-faq-block {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: white; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.rt-dropdown-toggle-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
