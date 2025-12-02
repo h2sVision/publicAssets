@@ -1,0 +1,297 @@
+:root {
+    --h2s-primary-gradient: linear-gradient(90deg, rgba(19, 75, 187, 1) 0%, rgba(76, 23, 107, 1) 100%);
+    --h2s-gradient-blue: #2F36A1;
+    --h2s-primary: #F2C034;
+    --h2s-primary-light: #F2C0347c;
+    --h2s-primary-hover:
+        #e0af28;
+    --h2s-gray: #5a5a5a;
+    --h2s-light-bg: #F5F6FA;
+    --h2s-dark: #121212;
+    --h2s-white: #ffffff;
+    --h2s-footer-color:
+        #F2F2F2;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-display: swap;
+    scroll-behavior: smooth;
+}
+.isoLogos img{
+    width: 70px;
+}
+
+
+footer p{
+    color: var(--h2s-dark);
+    font-size: 0.9rem !important;
+}
+footer .accordion {
+    background-color: transparent;
+    color: #000 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+footer .active,
+.accordion:hover {
+    border: none !important;
+}
+
+footer .panel {
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer a {
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+footer .plus {
+    display: block;
+}
+
+footer .cross {
+    display: none;
+}
+
+footer hr {
+    margin-bottom: -10rem;
+}
+
+.a1,
+.a1 a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 1.6rem;
+    color: var(--h2s-dark);
+}
+
+.a1 ul {
+    margin-left: -2rem;
+}
+
+
+
+
+
+footer {
+    padding: 3rem 1rem 0;
+    background: var(--h2s-footer-color);
+}
+
+footer ul {
+    list-style:none;
+    padding-left: 0;
+}
+.tags{
+    color: var(--h2s-dark);
+}
+.tags a {
+        display: inline;
+        
+    }
+.tags ul {
+    padding: 0;
+}
+.adrs_country{
+    margin-bottom: 0.3rem;
+}
+p.add_city {
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+p.full_address {
+    margin-bottom: 0.7rem;
+    color: #5a5a5a;
+    font-size: 13px !important;
+}
+
+
+footer .accordion {
+    background-color:
+        transparent;
+    color: #444;
+}
+
+footer ul li {
+    position: relative;
+    display: inline-block;
+    color:
+        var(--h2s-dark);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+}
+
+footer ul li::before {
+    content:
+        '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50%;
+    height: 1px;
+    background: var(--h2s-dark);
+}
+
+footer ul a {
+    display: block;
+    color: var(--h2s-gray);
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+footer ul a:hover {
+    color:var(--h2s-dark);
+    text-decoration: none;
+}
+
+
+
+.end-footer p{
+    color: var(--h2s-dark);
+    margin: 0;
+    padding:
+        1rem 0;
+}
+.end-footer i:hover{
+    color: var(--h2s-dark);
+}
+
+.end-footer a:hover {
+    color: var(--h2s-dark);
+    text-decoration: none;
+}
+
+.end-footer .social {
+    text-align:
+        right;
+}
+
+.end-footer i {
+    margin: 0 0.9rem;
+}
+
+
+
+footer .fa-facebook,
+footer .fa-facebook-square {
+    color: var(--h2s-gray);
+}
+
+footer .fa-linkedin,
+footer .fa-linkedin-square {
+    color: var(--h2s-gray);
+}
+
+footer .fa-twitter,
+footer .fa-twitter-square {
+    color: var(--h2s-gray);
+}
+
+footer .fa-whatsapp-square {
+    color: var(--h2s-gray);
+}
+
+footer .fa-telegram {
+    color: var(--h2s-gray);
+}
+
+footer .fa-instagram {
+    color: var(--h2s-gray);
+}
+
+footer .fa-discord {
+    color: var(--h2s-gray);
+}
+
+footer .fa-youtube {
+    color: var(--h2s-gray);
+}
+
+
+@media (max-width: 650px) {
+    .copyRightAndLogo{
+        align-items: center !important;
+        flex-wrap: wrap !important;
+    }
+    .end-footer p{
+        padding: 0.5rem 0;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 575.98px) {
+    footer ul {
+        padding: 0;
+    }
+    .copyRightAndLogo{
+        justify-content: center !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:900px) {
+    footer .container-fluid {
+        padding: 0 5rem;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .tags ul li{
+        font-size: 1rem;
+    }
+    .end-footer .copy_right {
+        margin-top:
+            1rem;
+    }
+
+    .end-footer .copy_right,
+    .end-footer .social {
+        text-align: center;
+    }
+}
+
+
+
+

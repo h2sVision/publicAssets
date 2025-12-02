@@ -1,0 +1,242 @@
+.c-uhff-nav-group .c-list li {
+  padding: 0;
+  margin-bottom:12px;
+}
+.c-dialog.f-flow [role="dialog"] > .c-glyph:focus, .c-dialog.f-lightbox [role="dialog"] > .c-glyph:focus {
+  outline: 1px dashed rgba(0,0,0,.8) !important;
+}
+
+.social {
+  background: #FFF;
+  padding: 16px 0;
+  position: relative;
+}
+.social .social-inner
+{
+  max-width:1310px;
+  padding:0 15px;
+      margin: 0 auto;
+}
+
+.social > span  {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0,0,0,.6);
+  padding-right: 12px;
+  margin-bottom: 4px; display: inline-block; vertical-align:middle;
+}
+
+.social ul {
+  /* position: absolute; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; vertical-align:middle;
+}
+
+.social ul > li {
+  float: left;
+  margin-bottom: 0px;
+}
+.social ul > li > a {
+  position: relative;
+  border: 2px solid transparent;
+  outline: 0;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  transition: scale .2s ease-in-out;
+  display: block;
+}
+
+
+.c-uhff {
+  background: #f2f2f2;
+  padding-top: 40px;
+}
+.c-uhff .c-modal-link {
+  cursor: pointer
+}
+
+.c-uhff-nav {
+      margin: 0 auto;
+  max-width: 1310px;
+  padding: 0 15px;
+}
+
+.c-uhff-nav:before,
+.c-uhff-nav:after {
+  content: " ";
+  display: table
+}
+
+.c-uhff-nav:after {
+  clear: both
+}
+
+  .c-uhff-nav .c-heading-4 {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0;
+      margin: 10px 0;
+  }
+
+.c-uhff-nav .c-heading-4,
+.c-uhff-nav a.c-uhff-link {
+  color: #616161;
+  word-break: break-word
+}
+
+.c-uhff-nav-group {
+  display: block;
+  float: left;
+  min-height: 1px;
+  vertical-align: text-top;
+  padding: 0 12px;
+  width: 16.6666666667%;
+  zoom: 1
+}
+
+.c-uhff-nav-group ul.c-list {
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-uhff-nav-group:first-child {
+  padding-left: 0
+}
+
+.c-uhff-base {
+      background: #f2f2f2;
+  margin: 0 auto;
+  max-width: 1310px;
+  padding: 48px 15px;
+}
+
+.c-uhff-base:before,
+.c-uhff-base:after {
+  content: " ";
+  display: table
+}
+
+.c-uhff-base:after {
+  clear: both
+}
+
+.c-uhff-base>a.c-uhff-link.c-uhff-lang-selector {
+  font-size: 11px;
+  line-height: 16px;
+  display: inline-block;
+  padding-right: 24px;
+  color: #616161;
+  float: left;
+  white-space: nowrap
+}
+
+.c-uhff-base>a.c-uhff-link.c-uhff-lang-selector:before {
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 10px;
+  vertical-align: middle
+}
+
+.c-uhff-base ul.c-list {
+  font-size: 11px;
+  line-height: 16px;
+  float: right;
+  margin: 3px 0;
+  color: #616161
+}
+
+.c-uhff-base ul.c-list li {
+  padding: 0 24px 4px 0;
+  display: inline-block
+}
+.c-uhff-base ul.c-list li a { color:#616161; 
+}
+
+@media only screen and (max-width: 1083px) {
+  .c-uhff-nav {
+      padding: 0 12px
+  }
+  .c-uhff-nav-row:before,
+  .c-uhff-nav-row:after {
+      content: " ";
+      display: table
+  }
+  .c-uhff-nav-row:after {
+      clear: both
+  }
+  .c-uhff-nav-group {
+      width: 33.33333%
+  }
+  .c-uhff-nav-group:first-child {
+      padding-left: 12px
+  }
+  .c-uhff-base {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px 24px 16px
+  }
+  .c-uhff-base>a.c-uhff-link {
+      margin-right: auto
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .c-uhff-base>a.c-uhff-link {
+      width: 100%
+  }
+  .c-uhff-base>a.c-uhff-link+ul.c-list {
+      width: 100%
+  }
+  .c-uhff-base>a.c-uhff-link,
+  .c-uhff-base>a.c-uhff-link.c-glyph {
+      float: none
+  }
+  .c-uhff-base ul.c-list {
+      width: 100%;
+      float: none;
+      text-align: left;
+      margin-top: 12px
+  }
+  .c-uhff-base ul.c-list li {
+      padding: 6px 4px 0 6px
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .c-uhff-nav-row {
+      width: 100%;
+      float: none
+  }
+  .c-uhff-base ul.c-list {
+      float: left
+  }
+  .c-uhff-base ul.c-list li {
+      padding: 6px 10px 0 0
+  }
+  .c-uhff-nav-group {
+      width: 100%
+  }
+}
+
+a.c-uhff-link:focus {
+  outline: 1px dashed;
+  outline-offset: 3px
+}
+
+a.c-uhff-link:focus,
+a.c-uhff-link:hover {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: underline
+}
+
+a.c-uhff-link:active {
+  background: none;
+  color: rgba(0, 0, 0, 0.8)
+}
