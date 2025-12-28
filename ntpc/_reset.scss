@@ -1,0 +1,87 @@
+@import 'variables';
+* {
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    position: relative;
+    .wrapper {
+        margin-top: 66px;
+    }
+}
+
+h1 {
+    font-size: $h1_size;
+    font-weight: $h1_weight;
+}
+
+h2 {
+    font-size: $h2_size;
+    font-weight: $h2_weight;
+}
+
+p {
+    font-size: $p_size;
+    font-weight: $p_weight;
+}
+
+a {
+    color: $light-grey;
+    text-decoration: none;
+    background-color: transparent;
+    &:hover {
+        color: darken($light-grey, 25%);
+        text-decoration: underline;
+        @include transition;
+    }
+}
+
+input,
+.form-control {
+    padding: 25px 15px!important;
+    border: 1px solid #4de94a !important;
+    &:hover,
+    &:active,
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+button {
+    letter-spacing: 0.4px;
+    outline: none !important;
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+table {
+    thead {
+        th {
+            color: #fff;
+            background-color: $secondary;
+            border-color: $secondary;
+        }
+    }
+    tbody {
+        tr {
+            td:nth-child(1) {
+                width: 20%;
+            }
+            td:nth-child(2) {
+                width: 30%;
+            }
+            td:nth-child(3) {
+                width: 50%;
+            }
+        }
+    }
+}

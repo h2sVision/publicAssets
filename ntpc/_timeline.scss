@@ -1,0 +1,120 @@
+.horizontal-tabs-steps {
+    position: relative;
+}
+
+.horizontal-tabs-steps .nav-item {
+    z-index: 1;
+    position: relative;
+    width: 20%;
+    padding-right: 10px;
+}
+
+.horizontal-tabs-steps .nav-item:after {
+    content: "";
+    border-top: 2px dashed $primary;
+    position: absolute;
+    z-index: 0;
+    top: 15.5px;
+    left: 0px;
+    width: 16vw;
+    transition: border 1s ease-out;
+    transition-delay: 0s, 0s, 0.1s;
+}
+
+.horizontal-tabs-steps .nav-item:last-child:after {
+    content: "";
+    border-top: 2px dashed $primary;
+}
+
+.horizontal-tabs-steps .nav-item.complete-step:after {
+    content: "";
+    border-top: 2px dashed $primary;
+    position: absolute;
+    z-index: 0;
+    top: 15.5px;
+    width: 16vw;
+    left: 0px;
+    transition: border 1s ease-out;
+    transition-delay: 0s, 0s, 0.1s
+}
+
+.horizontal-tabs-steps .nav-link {
+    background: #fff;
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    color: #3c4858;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 2px solid $primary;
+    z-index: 1;
+    position: relative;
+}
+
+.horizontal-tabs-steps .nav-item h6,
+.horizontal-tabs-steps .nav-item p {
+    font-size: 12px;
+}
+
+.horizontal-tabs-steps .nav-item.show .nav-link,
+.horizontal-tabs-steps .nav-link.done {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.horizontal-tabs-steps .nav-link.done span {
+    font-weight: 500 !important;
+}
+
+.horizontal-tabs-steps .nav-link.running {
+    color: #fff;
+    background-color: $orange;
+    border-color: $orange;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.horizontal-tabs-steps .nav-link.done span {
+    color: #fff;
+    font-weight: 500 !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .horizontal-tabs-steps .nav-item:after {
+        content: "";
+        width: 17vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .horizontal-tabs-steps .nav-item:after {
+        content: "";
+        width: 18vw;
+    }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+    .horizontal-tabs-steps .nav-item:after {
+        content: "";
+        width: 18vw;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .horizontal-tabs-steps .nav-item:after {
+        content: "";
+        width: 18vw;
+    }
+
+    .horizontal-tabs-steps .nav-item {
+        width: 50%;
+    }
+}

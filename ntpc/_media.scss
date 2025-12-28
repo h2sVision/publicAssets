@@ -1,0 +1,112 @@
+@media (max-width: 992px) {
+    .cover {
+        height: $stage2_cover !important;
+        @include transition;
+    }
+
+    .community {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        .wrapper {
+            margin-top: 66px;
+        }
+    }
+
+    .cover {
+        border-radius: 0px;
+        @include transition;
+    }
+
+    .business {
+        img {
+            position: relative;
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .cover {
+        height: $stage3_cover !important;
+        @include transition;
+    }
+}
+
+@media (max-width: 574.98px) {
+    .cover {
+        height: $stage4_cover !important;
+        @include transition;
+    }
+}
+
+@media (max-width: 576px) {
+    .info_1 {
+        img {
+            width: 100px;
+            margin: 20px;
+        }
+
+        .date {
+            display: none;
+        }
+
+        .date-mob {
+            margin-top: 20px;
+        }
+    }
+
+    .business {
+        .line-1 {
+            button {
+                margin-left: auto;
+                margin-right: auto !important;
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 513px) {
+    .cover {
+        height: $stage5_cover !important;
+        @include transition;
+    }
+
+    .badge-group {
+        display: block !important;
+        left: 0;
+        text-align: left !important;
+        top: 5px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 318px) {
+    .cover {
+        height: 0 !important;
+        padding: 0;
+        @include transition;
+
+        .register {
+            display: none !important;
+        }
+    }
+
+    .info_1 {
+        .date-mob {
+            display: block;
+            text-align: left !important;
+            float: none !important;
+        }
+    }
+}
+
+// Left Panel Vertical Height
+@media(max-height: 632px) {
+    .text-sub {
+        display: none;
+    }
+}
