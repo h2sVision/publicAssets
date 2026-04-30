@@ -1,0 +1,125 @@
+footer{
+    font-family: 'Roboto', sans-serif;;
+}
+.main_footer {
+    padding: 2rem 1rem 1rem 1rem;
+    background: #000;
+}
+.top_footer li{
+    list-style-type: none;
+}
+.footer-p{
+   color: #fff;
+   text-align: center; 
+   padding: 1rem 0;
+}
+
+
+.top_footer ul li {
+    position: relative;
+    display: inline-block;
+    color: #fff !important;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+}
+
+.top_footer ul li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50%;
+    height: 1px;
+    background: #fff;
+}
+.top_footer ul a {
+    display: block;
+    color: #fff !important;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.social_icons a i {
+    font-size: 0.9rem;
+}
+
+/* p a{
+    text-decoration: none;
+    color: #000;
+} */
+
+.mobile-footer .accordion-button::after{
+    content: none;
+}
+.mobile-footer{
+    display: none;
+}
+.mobile-footer .accordion-button:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.mobile-footer .accordion-button{
+    background-color: transparent !important;
+    /* padding: 0 ; */
+    color: #fff;
+}
+.mobile-footer .accordion-item {
+    background-color: transparent !important;
+    border: none;
+}
+.mobile-footer i {
+    margin-left: auto !important;
+    font-size: 21px !important;
+    color: #fff;
+}
+.mobile-footer .accordion-button:not(.collapsed){
+    color: #fff !important;
+    box-shadow: none I !important;
+}
+/* @media only screen and (max-width:992px){
+    .top_footer{
+        display: none;
+    }
+    .mobile-footer{
+        display: block;
+    }
+} */
+.polka-social-link {
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.polka-social-link a i{
+    font-size: 1.5rem;
+}
+.polka-social-link a {
+    padding-left: 29px;
+}
+
+@media only screen and (max-width:1024px){
+
+    .polka-social-link a i {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:426px){
+    .polka-social-link {
+        padding: 20px 0px 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .polkadot-footer-logo{
+        width: 100px;
+        padding-top: 25px;
+    }
+    .main_footer{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .polka-social-link a {
+        padding-left: 22px;
+    }
+}
